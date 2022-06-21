@@ -1,0 +1,56 @@
+{
+  "doc_type": "pipeline",
+  "pipelines": [{
+    "id": "d2af7086-344c-4acd-bf4c-fb427a7f8e4b",
+    "nodes": [{
+      "id": "automl",
+      "op": "wml-http-score",
+      "outputs": [{
+        "id": "automl"
+      }],
+      "parameters": {
+        "output_logs": true,
+        "input_file_separator": ",",
+        "stage_flag": true,
+        "optimization": {
+          "compute_pipeline_notebooks_flag": true,
+          "cv_num_folds": 3,
+          "daub_adaptive_subsampling_max_mem_usage": 9000000000,
+          "holdout_param": 0.1,
+          "label": "PRODUCT_LINE",
+          "learning_type": "classification",
+          "max_num_daub_ensembles": 2,
+          "run_cognito_flag": true,
+          "scorer_for_ranking": "accuracy"
+        },
+        "n_parallel_data_connections": 4.0,
+        "one_vs_all_file": true,
+        "output_model": {
+          "location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/hpo_d_output/Pipeline5/model.pickle",
+          "name": "automl"
+        }
+      },
+      "runtime_ref": "autoai",
+      "type": "execution_node"
+    }],
+    "runtime_ref": "hybrid"
+  }],
+  "primary_pipeline": "d2af7086-344c-4acd-bf4c-fb427a7f8e4b",
+  "runtimes": [{
+    "app_data": {
+      "wml_data": {
+        "hardware_spec": {
+          "id": "c076e82c-b2a7-4d20-9c0f-1f0c2fdf5a24",
+          "name": "M"
+        },
+        "software_spec": {
+          "name": "autoai-kb_rt22.1-py3.9"
+        }
+      }
+    },
+    "id": "autoai",
+    "name": "auto_ai.kb",
+    "version": "sha256:9153f74337de089a76ce48624ef01e432a8e65700fa012f6f20c8236075f506c"
+  }],
+  "version": "2.0"
+}

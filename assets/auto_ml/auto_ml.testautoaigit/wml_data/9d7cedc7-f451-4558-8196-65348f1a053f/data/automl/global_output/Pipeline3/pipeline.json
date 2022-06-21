@@ -1,0 +1,71 @@
+{
+  "doc_type": "pipeline",
+  "version": "2.0",
+  "primary_pipeline": "global_output_Pipeline3",
+  "pipelines": [
+    {
+      "id": "global_output_Pipeline3",
+      "type": "execution_node",
+      "runtime_ref": "hybrid",
+      "op": "wml-http-score",
+      "nodes": [
+        {
+          "op": "PreprocessingTransformer",
+          "id": "0",
+          "parameters": {
+            "cat_enc_dtype": "<class 'numpy.float64'>",
+            "cat_enc_encoding": "'ordinal'",
+            "cat_enc_handle_unknown": "'error'",
+            "cat_imp_strategy": "'most_frequent'",
+            "missing_values_reference_list": "['', '-', '?', nan]",
+            "num_imp_axis": "0",
+            "num_imp_copy": "True",
+            "num_imp_missing_values": "'NaN'",
+            "num_imp_strategy": "'median'",
+            "num_imp_verbose": "0",
+            "num_scaler_copy": "True",
+            "num_scaler_use_scaler_flag": "False",
+            "num_scaler_with_mean": "False",
+            "num_scaler_with_std": "False"
+          },
+          "type": "execution_node",
+          "runtime_ref": "autoai"
+        },
+        {
+          "op": "autoai_libs.cognito.transforms.transform_utils.featureagglomeration",
+          "id": "1",
+          "type": "execution_node",
+          "runtime_ref": "autoai"
+        },
+        {
+          "op": "autoai_libs.cognito.transforms.transform_utils.FS1",
+          "id": "2",
+          "type": "execution_node",
+          "runtime_ref": "autoai"
+        },
+        {
+          "op": "SnapSVMClassifier",
+          "id": "3",
+          "parameters": {},
+          "type": "execution_node",
+          "runtime_ref": "autoai"
+        }
+      ]
+    }
+  ],
+  "runtimes": [
+    {
+      "app_data": {
+        "wml_data": {
+          "hardware_spec": {
+            "id": "c076e82c-b2a7-4d20-9c0f-1f0c2fdf5a24",
+            "name": "M"
+          }
+        }
+      },
+      "id": "autoai",
+      "name": "auto_ai.kb",
+      "version": "sha256:9153f74337de089a76ce48624ef01e432a8e65700fa012f6f20c8236075f506c"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "name": "P5",
+  "hybrid_pipeline_software_specs": [{
+    "name": "autoai-kb_rt22.1-py3.9"
+  }],
+  "content_location": {
+    "connection": {
+
+    },
+    "contents": [{
+      "content_format": "pipeline-node",
+      "file_name": "P5_automl.zip",
+      "location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/assets/9d7cedc7-f451-4558-8196-65348f1a053f_P5_pre_hpo_d_output/resources/wml_model/P5_automl.zip",
+      "pipeline_node_id": "automl"
+    }, {
+      "content_format": "native",
+      "file_name": "pipeline_model.json",
+      "location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/assets/9d7cedc7-f451-4558-8196-65348f1a053f_P5_pre_hpo_d_output/resources/wml_model/pipeline_model.json"
+    }],
+    "location": {
+      "path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data",
+      "notebooks_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/notebooks",
+      "training": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f",
+      "training_status": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/training-status.json",
+      "assets_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/assets"
+    },
+    "type": "fs"
+  },
+  "training_data_references": [{
+    "connection": {
+
+    },
+    "id": "go_sales.csv",
+    "location": {
+      "href": "/userfs/v2/assets/data_asset.gosalescsv?project_id=8051f31b-9e96-4d18-8777-bcfc5354b42f",
+      "id": "data_asset.gosalescsv",
+      "userfs": "true"
+    },
+    "schema": {
+      "fields": [{
+        "name": "GENDER",
+        "type": "other"
+      }, {
+        "name": "AGE",
+        "type": "integer"
+      }, {
+        "name": "MARITAL_STATUS",
+        "type": "other"
+      }, {
+        "name": "PROFESSION",
+        "type": "other"
+      }, {
+        "name": "PRODUCT_LINE",
+        "type": "other"
+      }],
+      "id": "auto_ai_kb_input_schema"
+    },
+    "type": "data_asset"
+  }],
+  "label_column": "PRODUCT_LINE",
+  "software_spec": {
+    "name": "hybrid_0.1"
+  },
+  "test_data_references": [],
+  "pipeline": {
+    "id": "wml_pipeline.testautoaigit"
+  },
+  "project_id": "8051f31b-9e96-4d18-8777-bcfc5354b42f",
+  "metrics": [{
+    "context": {
+      "classes": ["Camping Equipment", "Golf Equipment", "Mountaineering Equipment", "Outdoor Protection", "Personal Accessories"],
+      "features_importance": [{
+        "computation_type": "",
+        "features": {
+          "AGE": 0.0,
+          "GENDER": 1.0,
+          "MARITAL_STATUS": 0.5,
+          "PROFESSION": 0.26
+        },
+        "stage": "Mean"
+      }],
+      "intermediate_model": {
+        "composition_steps": ["Split_TrainingHoldout", "TrainingDataset_full_2557_4", "TrainingDataset_full_2557_4", "Preprocessor_default", "DAUB"],
+        "duration": 1691,
+        "location": {
+          "model": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/pre_hpo_d_output/Pipeline5/model.pickle",
+          "pipeline": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/pre_hpo_d_output/Pipeline5/pipeline.json",
+          "pipeline_model": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/pre_hpo_d_output/Pipeline5/pipeline-model.json"
+        },
+        "name": "P5",
+        "notebook_location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/pre_hpo_d_output/Pipeline5/notebook.ipynb",
+        "pipeline_nodes": ["PreprocessingTransformer", "XGBClassifier"],
+        "process": "pre_hpo_d_output",
+        "schema_location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/pre_hpo_d_output/Pipeline5/schema.json"
+      },
+      "multi_class_classification": {
+        "one_vs_all_location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/auto_ml/auto_ml.testautoaigit/wml_data/9d7cedc7-f451-4558-8196-65348f1a053f/data/automl/pre_hpo_d_output/Pipeline5/one_vs_all.json"
+      },
+      "phase": "pre_hpo_d_output",
+      "target_column": "PRODUCT_LINE"
+    },
+    "ml_metrics": {
+      "training_precision_weighted": 0.12621637077425737,
+      "holdout_f1_weighted": 0.07940234292734234,
+      "holdout_f1_macro": 0.0726737833382772,
+      "holdout_recall_micro": 0.0912280701754386,
+      "holdout_precision_weighted": 0.07508057763724302,
+      "holdout_recall_weighted": 0.0912280701754386,
+      "training_precision_macro": 0.11846561217935482,
+      "training_recall_micro": 0.13726706991984472,
+      "training_precision_micro": 0.13726706991984472,
+      "training_neg_log_loss": -1.7214900920033134,
+      "holdout_accuracy": 0.0912280701754386,
+      "holdout_f1_micro": 0.0912280701754386,
+      "holdout_recall_macro": 0.07987012987012987,
+      "training_f1_micro": 0.13726706991984472,
+      "holdout_precision_micro": 0.0912280701754386,
+      "training_recall_macro": 0.12055941042048368,
+      "holdout_neg_log_loss": -1.6677378144180566,
+      "training_accuracy": 0.13726706991984472,
+      "training_f1_weighted": 0.1280589029887799,
+      "training_f1_macro": 0.11590282902977433,
+      "training_recall_weighted": 0.13726706991984472,
+      "holdout_precision_macro": 0.07160934868051656
+    },
+    "timestamp": "2022-06-21T01:27:52.000Z"
+  }],
+  "type": "wml-hybrid_0.1",
+  "schemas": {
+    "input": [{
+      "fields": [{
+        "name": "GENDER",
+        "type": "other"
+      }, {
+        "name": "AGE",
+        "type": "integer"
+      }, {
+        "name": "MARITAL_STATUS",
+        "type": "other"
+      }, {
+        "name": "PROFESSION",
+        "type": "other"
+      }],
+      "id": "auto_ai_kb_input_schema"
+    }],
+    "output": []
+  }
+}

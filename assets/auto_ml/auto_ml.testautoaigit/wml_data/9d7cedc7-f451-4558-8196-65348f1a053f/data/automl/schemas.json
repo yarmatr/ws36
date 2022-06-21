@@ -1,0 +1,23 @@
+[
+    {
+        "id": "auto_ai_kb_input_schema",
+        "fields": [
+            {
+                "name": "GENDER",
+                "type": "other"
+            },
+            {
+                "name": "AGE",
+                "type": "integer"
+            },
+            {
+                "name": "MARITAL_STATUS",
+                "type": "other"
+            },
+            {
+                "name": "PROFESSION",
+                "type": "other"
+            }
+        ]
+    }
+]

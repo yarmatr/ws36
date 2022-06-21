@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "name": "tf mnist",
+    "tags": [],
+    "asset_type": "wml_model",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-06-21T04:57:16Z",
+    "created": 1655787436647,
+    "asset_id": "wml_model.tfmnist",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "entity": {
+    "wml_model": {
+      "ml_version": "4.0.2",
+      "tags": [],
+      "software_spec": {
+        "base_id": "12b83a17-24d8-5082-900f-0ab31fbfd3cb"
+      },
+      "type": "tensorflow_2.7",
+      "custom": {
+        "untrained": true
+      }
+    }
+  },
+  "attachments": [
+    {
+      "name": "native",
+      "asset_type": "wml_model",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-06-21T04:57:16Z",
+      "id": "36cba448-c637-44a7-8f3d-d55a633a08ea",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "model_62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298",
+  "content_location": {
+    "connection": {
+
+    },
+    "contents": [{
+      "content_format": "native",
+      "file_name": "62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298.zip",
+      "location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/assets/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/resources/wml_model/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298.zip"
+    }],
+    "location": {
+      "path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning",
+      "model": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/data/model",
+      "notebooks_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/notebooks",
+      "training": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298",
+      "training_status": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/training-status.json",
+      "logs": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/logs",
+      "assets_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/62acd5e2-5de5-42ef-aa9c-2a7a2d7b9298/assets"
+    },
+    "type": "fs"
+  },
+  "software_spec": {
+    "name": "runtime-22.1-py3.9"
+  },
+  "project_id": "8051f31b-9e96-4d18-8777-bcfc5354b42f",
+  "type": "tensorflow_2.7"
+}

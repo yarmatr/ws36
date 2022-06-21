@@ -1,0 +1,62 @@
+{
+  "entity": {
+    "wml_model": {
+      "hybrid_pipeline_software_specs": [],
+      "content_location": {
+        "connection": {},
+        "contents": [
+          {
+            "content_format": "native",
+            "file_name": "648f8e85-4a2a-4c3f-9627-fbb22334c7bf.zip",
+            "location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/assets/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/resources/wml_model/648f8e85-4a2a-4c3f-9627-fbb22334c7bf.zip"
+          }
+        ],
+        "location": {
+          "path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning",
+          "model": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/data/model",
+          "notebooks_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/notebooks",
+          "training": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf",
+          "training_status": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/training-status.json",
+          "logs": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/logs",
+          "assets_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/assets"
+        },
+        "type": "fs"
+      },
+      "ml_version": "4.0.15",
+      "type": "tensorflow_2.7",
+      "software_spec": {
+        "base_id": "12b83a17-24d8-5082-900f-0ab31fbfd3cb",
+        "name": "runtime-22.1-py3.9"
+      },
+      "content_import_state": "completed"
+    }
+  },
+  "metadata": {
+    "name": "test fl training_aggregate",
+    "asset_type": "wml_model",
+    "asset_category": "USER",
+    "resource_key": "08e9cb26-2db7-4316-bd7a-41c19f5ea270",
+    "origin_country": "US",
+    "created_at": "2022-06-21T11:40:36Z",
+    "created": 1655811636457,
+    "asset_id": "wml_model.testfltrainingaggregate",
+    "asset_attributes": [
+      "wml_model"
+    ]
+  },
+  "attachments": [
+    {
+      "asset_type": "wml_model",
+      "name": "648f8e85-4a2a-4c3f-9627-fbb22334c7bf.zip",
+      "user_data": {
+        "content_format": "native"
+      },
+      "created_at": "2022-06-21T11:40:56Z",
+      "id": "b2050927-68d9-4291-bc84-6d3ec8913188",
+      "is_managed": true,
+      "is_referenced": false,
+      "is_remote": false,
+      "transfer_complete": true
+    }
+  ]
+}

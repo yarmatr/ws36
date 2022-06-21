@@ -1,0 +1,640 @@
+2022-06-21T05:19:20.059Z | 1.0.7 | INFO | ibmfl.util.config                                  | Getting Aggregator details from arguments.
+2022-06-21T05:19:20.059Z | 1.0.7 | INFO | ibmfl.util.config                                  | No data config provided for this setup.
+2022-06-21T05:19:20.059Z | 1.0.7 | INFO | ibmfl.util.config                                  | No metrics recorder config provided for this setup.
+2022-06-21T05:19:20.060Z | 1.0.7 | INFO | ibmfl.util.config                                  | No metrics config provided for this setup.
+2022-06-21T05:19:20.060Z | 1.0.7 | INFO | ibmfl.util.config                                  | No evidencia recordeer config provided for this setup.
+2022-06-21T05:19:20.062Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | unpack_model_def_wrk_dir, fl_envs.working_directory = /tmp
+2022-06-21T05:19:20.548Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.START
+2022-06-21T05:19:20.564Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSReceiver initialize() with ssl_context <ssl.SSLContext object at 0x7fe10754be40>
+2022-06-21T05:19:20.565Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Starting periodic monitor
+2022-06-21T05:19:20.565Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initializing connection
+2022-06-21T05:19:20.565Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initialized connection
+2022-06-21T05:19:20.565Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:19:20.584Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.START
+2022-06-21T05:19:20.585Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:19:20.603Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.REGISTER_WAIT
+2022-06-21T05:19:54.835Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:19:55.145Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"id": "wml_remote_training_system.testrts", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/5c3b444...
+2022-06-21T05:19:55.151Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7fe107d7ec10>>
+2022-06-21T05:19:55.161Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts
+2022-06-21T05:19:55.166Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:1
+2022-06-21T05:19:55.333Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts
+2022-06-21T05:19:56.084Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T05:19:56.139Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts", "model_package": {"py/b64": "UEsDBBQAAAAAADBWbVEAAAAAAAAAAAAAAAAHACAAYXNzZXRz...
+2022-06-21T05:19:57.306Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:19:57.613Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"id": "wml_remote_training_system.testrts2", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/5c3b4...
+2022-06-21T05:19:57.618Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7fe107d7ec10>>
+2022-06-21T05:19:57.618Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts2
+2022-06-21T05:19:57.618Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:2
+2022-06-21T05:19:57.619Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:19:57.643Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts2
+2022-06-21T05:19:57.661Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.TRAIN
+2022-06-21T05:19:57.700Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initiating Global Training.
+2022-06-21T05:19:57.707Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Model update<ibmfl.model.model_update.ModelUpdate object at 0x7fe0d858eb80>
+2022-06-21T05:19:57.707Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T05:19:57.707Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T05:19:57.707Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:19:57.721Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T05:19:57.723Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T05:19:57.723Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T05:19:58.213Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T05:19:58.272Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/object...
+2022-06-21T05:19:58.898Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T05:19:58.943Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts2", "model_package": {"py/b64": "UEsDBBQAAAAAADBWbVEAAAAAAAAAAAAAAAAHACAAYXNzZX...
+2022-06-21T05:19:59.496Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T05:19:59.563Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/object...
+2022-06-21T05:20:03.354Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T05:20:03.354Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T05:20:03.354Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7fe0d85ce310>
+2022-06-21T05:20:09.746Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T05:20:09.747Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T05:20:09.747Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7fe0d858ec40>
+2022-06-21T05:20:09.749Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T05:20:09.749Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T05:20:09.749Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T05:20:09.751Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T05:20:14.756Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T05:20:19.761Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T05:20:20.635Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T05:20:20.635Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 23, max_timeout = 43200
+2022-06-21T05:20:20.635Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T05:20:20.635Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:20:20.651Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T05:20:20.651Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T05:20:24.766Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T05:20:29.771Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T05:20:34.775Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T05:20:39.779Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T05:20:44.784Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T05:20:49.790Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T05:20:54.794Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:45
+2022-06-21T05:20:56.778Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.07329950481653214, "acc": 0.98, "accuracy": 0.9771999716758728, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T05:20:56.801Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:20:56.802Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:20:56.802Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:20:57.016Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:20:59.799Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:50
+2022-06-21T05:21:04.801Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:55
+2022-06-21T05:21:05.806Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.07279963046312332, "acc": 0.98, "accuracy": 0.9779000282287598, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T05:21:05.831Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:21:05.831Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:05.831Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:06.078Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:21:09.806Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:60
+2022-06-21T05:21:14.811Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:65
+2022-06-21T05:21:19.815Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:70
+2022-06-21T05:21:20.692Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T05:21:20.692Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 83, max_timeout = 43200
+2022-06-21T05:21:20.692Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T05:21:20.692Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:21:20.707Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T05:21:20.708Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T05:21:23.792Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.07329950481653214, "acc": 0.98, "accuracy": 0.9771999716758728, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T05:21:23.817Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:21:23.818Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:23.818Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:24.036Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:21:24.818Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:75
+2022-06-21T05:21:29.824Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:80
+2022-06-21T05:21:34.829Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:85
+2022-06-21T05:21:38.832Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.07279963046312332, "acc": 0.98, "accuracy": 0.9779000282287598, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T05:21:38.859Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:21:38.860Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:38.860Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:39.182Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:21:39.830Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:90
+2022-06-21T05:21:44.836Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:95
+2022-06-21T05:21:49.837Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:100
+2022-06-21T05:21:54.843Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:105
+2022-06-21T05:21:55.790Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.07329950481653214, "acc": 0.98, "accuracy": 0.9771999716758728, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T05:21:55.815Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:21:55.815Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:55.816Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:21:56.009Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:21:59.843Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:110
+2022-06-21T05:22:04.849Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:115
+2022-06-21T05:22:08.356Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.07279963046312332, "acc": 0.98, "accuracy": 0.9779000282287598, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T05:22:08.380Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:22:08.381Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:08.381Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:08.565Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:22:09.854Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:120
+2022-06-21T05:22:14.858Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:125
+2022-06-21T05:22:19.861Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:130
+2022-06-21T05:22:20.801Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T05:22:20.801Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 143, max_timeout = 43200
+2022-06-21T05:22:20.801Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T05:22:20.801Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:22:20.818Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T05:22:20.818Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T05:22:24.867Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:135
+2022-06-21T05:22:29.872Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:140
+2022-06-21T05:22:30.124Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.07329950481653214, "acc": 0.98, "accuracy": 0.9771999716758728, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T05:22:30.150Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:22:30.150Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:30.151Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:30.352Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:22:34.873Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:145
+2022-06-21T05:22:39.169Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.07279963046312332, "acc": 0.98, "accuracy": 0.9779000282287598, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T05:22:39.194Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:22:39.195Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:39.195Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:39.435Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:22:39.878Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:150
+2022-06-21T05:22:44.881Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:155
+2022-06-21T05:22:49.886Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:160
+2022-06-21T05:22:54.887Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:165
+2022-06-21T05:22:58.620Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.07329950481653214, "acc": 0.98, "accuracy": 0.9771999716758728, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T05:22:58.648Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:22:58.649Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:58.650Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:22:58.881Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:22:59.893Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:170
+2022-06-21T05:23:04.897Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:175
+2022-06-21T05:23:09.903Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:180
+2022-06-21T05:23:12.705Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.07279963046312332, "acc": 0.98, "accuracy": 0.9779000282287598, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T05:23:12.728Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:23:12.729Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:23:12.729Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:23:12.987Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:23:14.908Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:185
+2022-06-21T05:23:19.911Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:190
+2022-06-21T05:23:20.877Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T05:23:20.877Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 203, max_timeout = 43200
+2022-06-21T05:23:20.877Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T05:23:20.877Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:23:20.893Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T05:23:20.893Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T05:23:24.917Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:195
+2022-06-21T05:23:29.922Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:200
+2022-06-21T05:23:31.150Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.07329950481653214, "acc": 0.98, "accuracy": 0.9771999716758728, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T05:23:31.176Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:23:31.176Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:23:31.177Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:23:31.392Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:23:34.928Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:205
+2022-06-21T05:23:39.933Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:210
+2022-06-21T05:23:44.935Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:215
+2022-06-21T05:23:45.441Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.07279963046312332, "acc": 0.98, "accuracy": 0.9779000282287598, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T05:23:45.466Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 253, in receive_message_handler
+    await self.process_received_message(message, rts_id_for_message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 312, in process_received_message
+    recv_msg = serializer.deserialize(message)
+  File "/FL/ibmfl/message/json_serializer.py", line 42, in deserialize
+    data_dict = jsonpickle.decode(json_str_obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 42, in decode
+    return context.restore(data, reset=reset, classes=classes)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 155, in restore
+    value = self._restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 555, in _restore_dict
+    data[k] = self._restore(v)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 214, in _restore
+    return restore(obj)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/jsonpickle/unpickler.py", line 249, in _restore_reduce
+    stage1 = f(*args)
+TypeError: scalar() argument 1 must be numpy.dtype, not _IDProxy
+2022-06-21T05:23:45.467Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:23:45.467Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:23:45.815Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T05:23:49.940Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:220
+2022-06-21T05:23:54.946Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:225
+2022-06-21T05:23:59.946Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:230
+2022-06-21T05:24:04.947Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:235
+2022-06-21T05:24:09.953Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:240
+2022-06-21T05:24:14.957Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:245
+2022-06-21T05:24:19.958Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:250
+2022-06-21T05:24:20.959Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = True
+2022-06-21T05:24:20.959Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Cancel Requested, Exiting
+2022-06-21T05:24:20.959Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T05:24:20.975Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.STOP
+2022-06-21T05:24:20.975Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T05:24:20.978Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 14 to destination = wml_remote_training_system.testrts
+2022-06-21T05:24:20.978Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 14 to destination = wml_remote_training_system.testrts2
+2022-06-21T05:24:21.514Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T05:24:21.514Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 6, "message_type": 14, "sender_info": null}, "data": null}'
+2022-06-21T05:24:21.867Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T05:24:21.867Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 6, "message_type": 14, "sender_info": null}, "data": null}'
+2022-06-21T05:24:24.963Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:255
+2022-06-21T05:24:29.970Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:260
+2022-06-21T05:24:34.975Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:265
+2022-06-21T05:24:39.977Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:270
+2022-06-21T05:24:44.980Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:275
+2022-06-21T05:24:49.985Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:280
+2022-06-21T05:24:54.990Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:285
+2022-06-21T05:24:59.995Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:290
+2022-06-21T05:25:05.000Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:295
+2022-06-21T05:25:10.005Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:300
+2022-06-21T05:25:15.009Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:305
+2022-06-21T05:25:20.010Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:310
+2022-06-21T05:25:21.525Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler - ConnectionClosedError encountered.
+Traceback (most recent call last):
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/framing.py", line 100, in read
+    data = await reader(length)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 9699314 bytes read on a total of 11220923 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 250, in receive_message_handler
+    async for message in websocket:
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-06-21T05:25:21.526Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Invalidating destination: wml_remote_training_system.testrts
+2022-06-21T05:25:21.526Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Adding in Transit message back to queue
+2022-06-21T05:25:21.526Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:25:21.526Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:25:21.526Z | 1.0.7 | ERROR | ibmfl.aggregator.protohandler.proto_handler        | Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x7fe0d86160a0> - 'wml_remote_training_system.testrts'
+Traceback (most recent call last):
+  File "/FL/ibmfl/aggregator/protohandler/proto_handler.py", line 203, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 364, in send_message
+    recvEvList[destination].clear()
+KeyError: 'wml_remote_training_system.testrts'
+2022-06-21T05:25:21.873Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler - ConnectionClosedError encountered.
+Traceback (most recent call last):
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/framing.py", line 100, in read
+    data = await reader(length)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 4259826 bytes read on a total of 11220909 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 250, in receive_message_handler
+    async for message in websocket:
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-06-21T05:25:21.874Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Invalidating destination: wml_remote_training_system.testrts2
+2022-06-21T05:25:21.874Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Adding in Transit message back to queue
+2022-06-21T05:25:21.874Z | 1.0.7 | ERROR | ibmfl.aggregator.protohandler.proto_handler        | Error occurred while sending request to party: <ibmfl.aggregator.party_connection.PartyConnection object at 0x7fe0d857f7f0> - 'wml_remote_training_system.testrts2'
+Traceback (most recent call last):
+  File "/FL/ibmfl/aggregator/protohandler/proto_handler.py", line 203, in send_message
+    res_msg = self.connection.send_message(party.info, message)
+  File "/FL/ibmfl/connection/sws_connection.py", line 364, in send_message
+    recvEvList[destination].clear()
+KeyError: 'wml_remote_training_system.testrts2'
+2022-06-21T05:25:21.875Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T05:25:21.877Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :0
+2022-06-21T05:25:21.877Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T05:25:21.877Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T05:25:21.877Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Stop Complete
+2022-06-21T05:25:21.877Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Ending periodic monitor
+2022-06-21T05:25:25.011Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:315
+2022-06-21T05:25:30.014Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:320
+2022-06-21T05:25:35.020Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:325
+2022-06-21T05:25:40.025Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:330
+2022-06-21T05:25:45.031Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:335
+2022-06-21T05:25:50.037Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:340
+2022-06-21T05:25:55.041Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:345
+2022-06-21T05:26:00.046Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:350
+2022-06-21T05:26:05.052Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:355
+2022-06-21T05:26:10.052Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:360

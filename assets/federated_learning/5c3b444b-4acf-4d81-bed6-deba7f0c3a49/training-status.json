@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "created_at": "2022-06-21T05:18:36.698Z",
+    "id": "5c3b444b-4acf-4d81-bed6-deba7f0c3a49",
+    "modified_at": "2022-06-21T05:23:43.210Z",
+    "project_id": "8051f31b-9e96-4d18-8777-bcfc5354b42f"
+  },
+  "entity": {
+    "federated_learning": {
+      "fusion_type": "iter_avg",
+      "hardware_spec": {
+        "name": "XXS"
+      },
+      "log_level": "INFO",
+      "model": {
+        "spec": {
+          "id": "wml_model.tfmnist"
+        },
+        "type": "tensorflow"
+      },
+      "remote_training": {
+        "max_timeout": 43200,
+        "quorum": 1.0,
+        "remote_training_systems": [{
+          "id": "wml_remote_training_system.testrts",
+          "required": true
+        }, {
+          "id": "wml_remote_training_system.testrts2",
+          "required": true
+        }]
+      },
+      "rounds": 5,
+      "software_spec": {
+        "name": "runtime-22.1-py3.9"
+      }
+    },
+    "project_id": "8051f31b-9e96-4d18-8777-bcfc5354b42f",
+    "results_reference": {
+      "connection": {
+
+      },
+      "location": {
+        "path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning",
+        "model": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/5c3b444b-4acf-4d81-bed6-deba7f0c3a49/data/model",
+        "notebooks_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/5c3b444b-4acf-4d81-bed6-deba7f0c3a49/notebooks",
+        "training": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/5c3b444b-4acf-4d81-bed6-deba7f0c3a49",
+        "training_status": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/5c3b444b-4acf-4d81-bed6-deba7f0c3a49/training-status.json",
+        "logs": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/5c3b444b-4acf-4d81-bed6-deba7f0c3a49/logs",
+        "assets_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/5c3b444b-4acf-4d81-bed6-deba7f0c3a49/assets"
+      },
+      "type": "fs"
+    },
+    "status": {
+      "completed_at": "2022-06-21T05:23:42.988Z",
+      "federated_learning_info": {
+        "aggregator": {
+          "connection": {
+            "endpoint": "/ml/v4/trainings/5c3b444b-4acf-4d81-bed6-deba7f0c3a49",
+            "headers": {
+
+            },
+            "host": "$host",
+            "port": 50443,
+            "protocol": "wss"
+          }
+        },
+        "remote_training_systems": {
+          "states": [{
+            "id": "wml_remote_training_system.testrts",
+            "name": "test rts",
+            "registration_log": [{
+              "event": "register",
+              "timestamp": "2022-06-21T05:19:55.312Z"
+            }]
+          }, {
+            "id": "wml_remote_training_system.testrts2",
+            "name": "test rts 2",
+            "registration_log": [{
+              "event": "register",
+              "timestamp": "2022-06-21T05:19:57.636Z"
+            }]
+          }]
+        }
+      },
+      "running_at": "2022-06-21T05:19:57.636Z",
+      "state": "canceled",
+      "total_iterations": 5,
+      "wait_for_quorum_at": "2022-06-21T05:19:20.578Z"
+    },
+    "training_data_references": []
+  }
+}

@@ -1,0 +1,460 @@
+2022-06-21T11:20:39.254Z | 1.0.7 | INFO | ibmfl.util.config                                  | Getting Aggregator details from arguments.
+2022-06-21T11:20:39.254Z | 1.0.7 | INFO | ibmfl.util.config                                  | No data config provided for this setup.
+2022-06-21T11:20:39.254Z | 1.0.7 | INFO | ibmfl.util.config                                  | No metrics recorder config provided for this setup.
+2022-06-21T11:20:39.254Z | 1.0.7 | INFO | ibmfl.util.config                                  | No metrics config provided for this setup.
+2022-06-21T11:20:39.254Z | 1.0.7 | INFO | ibmfl.util.config                                  | No evidencia recordeer config provided for this setup.
+2022-06-21T11:20:39.255Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | unpack_model_def_wrk_dir, fl_envs.working_directory = /tmp
+2022-06-21T11:20:39.695Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.START
+2022-06-21T11:20:39.709Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSReceiver initialize() with ssl_context <ssl.SSLContext object at 0x7f2759ed3e40>
+2022-06-21T11:20:39.710Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Starting periodic monitor
+2022-06-21T11:20:39.710Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initializing connection
+2022-06-21T11:20:39.710Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initialized connection
+2022-06-21T11:20:39.710Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:20:39.727Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.START
+2022-06-21T11:20:39.728Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:20:39.743Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.REGISTER_WAIT
+2022-06-21T11:21:39.922Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:21:39.928Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 60, max_timeout = 43200
+2022-06-21T11:21:39.933Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:21:39.933Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:21:40.052Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:21:40.062Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:22:40.251Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:22:40.257Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 121, max_timeout = 43200
+2022-06-21T11:22:40.262Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:22:40.268Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:22:40.401Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:22:40.407Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:23:40.639Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:23:40.645Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 181, max_timeout = 43200
+2022-06-21T11:23:40.650Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:23:40.650Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:23:40.783Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:23:40.788Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:24:41.025Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:24:41.031Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 241, max_timeout = 43200
+2022-06-21T11:24:41.036Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:24:41.036Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:24:41.113Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:24:41.113Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:25:41.318Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:25:41.324Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 302, max_timeout = 43200
+2022-06-21T11:25:41.324Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:25:41.324Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:25:41.439Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:25:41.439Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:26:41.647Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:26:41.653Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 362, max_timeout = 43200
+2022-06-21T11:26:41.653Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:26:41.653Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:26:41.769Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:26:41.769Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:27:41.948Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:27:41.953Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 422, max_timeout = 43200
+2022-06-21T11:27:41.959Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:27:41.959Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:27:42.068Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:27:42.073Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:28:42.249Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:28:42.255Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 483, max_timeout = 43200
+2022-06-21T11:28:42.260Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:28:42.260Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:28:42.391Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:28:42.396Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:29:42.626Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:29:42.632Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 543, max_timeout = 43200
+2022-06-21T11:29:42.637Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:29:42.642Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:29:42.798Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:29:42.803Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:30:42.959Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:30:42.965Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 603, max_timeout = 43200
+2022-06-21T11:30:42.965Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:30:42.965Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:30:43.099Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:30:43.105Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:31:43.357Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:31:43.363Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 664, max_timeout = 43200
+2022-06-21T11:31:43.363Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:31:43.363Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:31:43.486Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:31:43.491Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:32:43.704Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:32:43.710Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 724, max_timeout = 43200
+2022-06-21T11:32:43.715Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:32:43.715Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:32:43.835Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:32:43.840Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:33:44.044Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:33:44.050Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 784, max_timeout = 43200
+2022-06-21T11:33:44.056Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:33:44.056Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:33:44.192Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:33:44.197Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:33:45.525Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T11:33:45.821Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"id": "wml_remote_training_system.testrts", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/648f8e8...
+2022-06-21T11:33:45.827Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7f2759eeedc0>>
+2022-06-21T11:33:45.832Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts
+2022-06-21T11:33:45.832Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:1
+2022-06-21T11:33:46.011Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts
+2022-06-21T11:33:46.759Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:33:46.827Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts", "model_package": {"py/b64": "UEsDBBQAAAAAADBWbVEAAAAAAAAAAAAAAAAHACAAYXNzZXRz...
+2022-06-21T11:34:12.277Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T11:34:12.559Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"id": "wml_remote_training_system.testrts2", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/648f8...
+2022-06-21T11:34:12.565Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7f2759eeedc0>>
+2022-06-21T11:34:12.565Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts2
+2022-06-21T11:34:12.565Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:2
+2022-06-21T11:34:12.565Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:34:12.582Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.TRAIN
+2022-06-21T11:34:12.582Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initiating Global Training.
+2022-06-21T11:34:12.587Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Model update<ibmfl.model.model_update.ModelUpdate object at 0x7f271c728ac0>
+2022-06-21T11:34:12.587Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T11:34:12.587Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T11:34:12.587Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:34:12.590Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:34:12.656Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:34:12.659Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:34:12.674Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:34:13.066Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:34:13.135Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/object...
+2022-06-21T11:34:13.733Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:34:13.778Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts2", "model_package": {"py/b64": "UEsDBBQAAAAAADBWbVEAAAAAAAAAAAAAAAAHACAAYXNzZX...
+2022-06-21T11:34:14.296Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:34:14.358Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/object...
+2022-06-21T11:34:16.561Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T11:34:16.562Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:34:16.562Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bdc0>
+2022-06-21T11:34:18.745Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T11:34:18.745Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:34:18.745Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bf70>
+2022-06-21T11:34:18.746Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:34:18.746Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:34:18.746Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:34:18.747Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T11:34:23.752Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T11:34:28.758Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T11:34:33.759Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T11:34:38.765Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T11:34:43.766Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T11:34:44.243Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:34:44.243Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 32, max_timeout = 43200
+2022-06-21T11:34:44.243Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:34:44.243Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:34:44.261Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:34:44.261Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:34:48.770Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T11:34:53.309Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.08039636164903641, "acc": 0.97, "accuracy": 0.9746000170707703, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T11:34:53.347Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:34:53.347Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:34:53.771Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T11:34:53.941Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.0835312083363533, "acc": 0.97, "accuracy": 0.9736999869346619, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T11:34:53.977Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:34:53.977Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:34:54.053Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:34:54.053Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success"}}'
+2022-06-21T11:34:54.054Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:34:54.054Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success"}}'
+2022-06-21T11:34:58.772Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T11:34:58.772Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.PROC_RSP
+2022-06-21T11:34:58.772Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.RCV_MODEL
+2022-06-21T11:34:58.772Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Accepting model updates
+2022-06-21T11:34:58.772Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:34:58.795Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.AGGREGATING
+2022-06-21T11:34:58.795Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Aggregating
+2022-06-21T11:34:58.795Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:34:58.828Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting metrics to WML service.
+2022-06-21T11:34:58.828Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | acc metric
+2022-06-21T11:34:58.828Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Metric obtained.
+2022-06-21T11:34:58.846Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Model update<ibmfl.model.model_update.ModelUpdate object at 0x7f271c7385b0>
+2022-06-21T11:34:58.847Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T11:34:58.847Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T11:34:58.847Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:34:58.859Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:34:58.862Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:34:58.862Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:34:59.061Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:34:59.113Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 8, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/object...
+2022-06-21T11:34:59.720Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:34:59.775Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 8, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/object...
+2022-06-21T11:35:01.556Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T11:35:01.556Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:35:01.556Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c6ea670>
+2022-06-21T11:35:03.473Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T11:35:03.473Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:35:03.474Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c770160>
+2022-06-21T11:35:03.476Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:35:03.476Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:35:03.476Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:35:03.477Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T11:35:08.482Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T11:35:13.487Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T11:35:18.493Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T11:35:23.498Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T11:35:28.504Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T11:35:33.509Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T11:35:38.514Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T11:35:43.527Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T11:35:43.928Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 8, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.05238993465900421, "acc": 0.98, "accuracy": 0.9817000031471252, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T11:35:43.977Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:35:43.977Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:35:44.350Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:35:44.350Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 92, max_timeout = 43200
+2022-06-21T11:35:44.351Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:35:44.351Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:35:44.368Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:35:44.368Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:35:44.785Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:35:44.785Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 8, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success"}}'
+2022-06-21T11:35:45.354Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 8, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.05691661313176155, "acc": 0.98, "accuracy": 0.9812999963760376, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T11:35:45.394Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:35:45.394Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:35:45.434Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:35:45.434Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 8, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success"}}'
+2022-06-21T11:35:48.533Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:45
+2022-06-21T11:35:48.533Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.PROC_RSP
+2022-06-21T11:35:48.533Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.RCV_MODEL
+2022-06-21T11:35:48.533Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Accepting model updates
+2022-06-21T11:35:48.533Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:35:48.550Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.AGGREGATING
+2022-06-21T11:35:48.550Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Aggregating
+2022-06-21T11:35:48.550Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:35:48.577Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting metrics to WML service.
+2022-06-21T11:35:48.577Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | acc metric
+2022-06-21T11:35:48.577Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Metric obtained.
+2022-06-21T11:35:48.593Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Model update<ibmfl.model.model_update.ModelUpdate object at 0x7f271c6ea2e0>
+2022-06-21T11:35:48.593Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T11:35:48.593Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T11:35:48.593Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:35:48.606Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:35:48.607Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:35:48.622Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:35:48.790Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:35:48.839Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 13, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/objec...
+2022-06-21T11:35:49.438Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:35:49.483Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 13, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/objec...
+2022-06-21T11:35:50.834Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T11:35:50.834Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:35:50.835Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bbe0>
+2022-06-21T11:35:52.248Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T11:35:52.249Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:35:52.249Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bac0>
+2022-06-21T11:35:52.250Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:35:52.250Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:35:52.250Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:35:52.251Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T11:35:57.256Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T11:36:02.261Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T11:36:07.267Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T11:36:12.270Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T11:36:17.273Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T11:36:22.278Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T11:36:27.280Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T11:36:32.285Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T11:36:33.234Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 13, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.05257432162761688, "acc": 0.98, "accuracy": 0.982699990272522, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T11:36:33.277Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:36:33.277Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:36:33.473Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:36:33.473Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 13, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success"}}'
+2022-06-21T11:36:34.846Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 13, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.05646797642111778, "acc": 0.98, "accuracy": 0.9819999933242798, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T11:36:34.886Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:36:34.886Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:36:35.278Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:36:35.278Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 13, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success"}}'
+2022-06-21T11:36:37.286Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:45
+2022-06-21T11:36:37.286Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.PROC_RSP
+2022-06-21T11:36:37.286Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.RCV_MODEL
+2022-06-21T11:36:37.286Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Accepting model updates
+2022-06-21T11:36:37.286Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:36:37.302Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.AGGREGATING
+2022-06-21T11:36:37.302Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Aggregating
+2022-06-21T11:36:37.302Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:36:37.334Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting metrics to WML service.
+2022-06-21T11:36:37.334Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | acc metric
+2022-06-21T11:36:37.334Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Metric obtained.
+2022-06-21T11:36:37.353Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Model update<ibmfl.model.model_update.ModelUpdate object at 0x7f271c6f2f40>
+2022-06-21T11:36:37.353Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T11:36:37.353Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T11:36:37.353Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:36:37.365Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:36:37.366Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:36:37.367Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:36:38.283Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:36:38.330Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 18, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/objec...
+2022-06-21T11:36:38.914Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:36:38.958Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 18, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/objec...
+2022-06-21T11:36:41.066Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T11:36:41.067Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:36:41.067Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bdc0>
+2022-06-21T11:36:41.369Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T11:36:41.369Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:36:41.370Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bc40>
+2022-06-21T11:36:41.371Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:36:41.371Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:36:41.372Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:36:41.372Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T11:36:44.463Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:36:44.464Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 152, max_timeout = 43200
+2022-06-21T11:36:44.464Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:36:44.464Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:36:44.477Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:36:44.477Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:36:46.377Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T11:36:51.383Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T11:36:56.388Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T11:37:01.390Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T11:37:06.393Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T11:37:11.398Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T11:37:16.403Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T11:37:21.409Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T11:37:22.770Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 18, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.04982078820466995, "acc": 0.98, "accuracy": 0.982200026512146, "f1 micro": {"py/reduce": [{"py/fu...
+2022-06-21T11:37:22.808Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:37:22.808Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:37:22.973Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:37:22.973Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 18, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success"}}'
+2022-06-21T11:37:26.414Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:45
+2022-06-21T11:37:28.050Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 18, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.05433393642306328, "acc": 0.98, "accuracy": 0.9825000166893005, "f1 micro": {"py/reduce": [{"py/...
+2022-06-21T11:37:28.092Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:37:28.092Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:37:28.604Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:37:28.604Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 18, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success"}}'
+2022-06-21T11:37:31.419Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:50
+2022-06-21T11:37:31.420Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.PROC_RSP
+2022-06-21T11:37:31.420Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.RCV_MODEL
+2022-06-21T11:37:31.420Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Accepting model updates
+2022-06-21T11:37:31.420Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:37:31.437Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.AGGREGATING
+2022-06-21T11:37:31.437Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Aggregating
+2022-06-21T11:37:31.437Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:37:31.465Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting metrics to WML service.
+2022-06-21T11:37:31.466Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | acc metric
+2022-06-21T11:37:31.466Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Metric obtained.
+2022-06-21T11:37:31.482Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Model update<ibmfl.model.model_update.ModelUpdate object at 0x7f271c693ca0>
+2022-06-21T11:37:31.482Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T11:37:31.482Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T11:37:31.482Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:37:31.495Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:37:31.497Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:37:31.497Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:37:32.098Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:37:32.145Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 23, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/objec...
+2022-06-21T11:37:32.763Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:37:32.810Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 23, "message_type": 7, "sender_info": null}, "data": {"payload": {"hyperparams": {"local": {"local_training": {"name": "LocalTrainingHandler", "path": "ibmfl.party.training.local_training_handler"}}}, "model_update": {"py/objec...
+2022-06-21T11:37:34.850Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T11:37:34.850Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:37:34.851Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f272c0523a0>
+2022-06-21T11:37:36.195Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T11:37:36.196Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:37:36.196Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bbe0>
+2022-06-21T11:37:36.198Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:37:36.199Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:37:36.199Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:37:36.199Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T11:37:41.202Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T11:37:44.576Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T11:37:44.576Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 212, max_timeout = 43200
+2022-06-21T11:37:44.576Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T11:37:44.576Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:37:44.592Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T11:37:44.592Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T11:37:46.208Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T11:37:51.212Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T11:37:56.217Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T11:38:01.222Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T11:38:06.223Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T11:38:11.229Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T11:38:16.234Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T11:38:18.309Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 23, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "metrics": {"loss": 0.05826706439256668, "acc": 0.98, "accuracy": 0.9812999963760376, "f1 micro": {"py/reduce": [{"py/f...
+2022-06-21T11:38:18.349Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:38:18.350Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T11:38:18.830Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:38:18.830Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 23, "message_type": 7, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success"}}'
+2022-06-21T11:38:19.057Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 23, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "metrics": {"loss": 0.050418127328157425, "acc": 0.99, "accuracy": 0.9857000112533569, "f1 micro": {"py/reduce": [{"py...
+2022-06-21T11:38:19.094Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method ProtoHandler.process_model_update_requests of <ibmfl.aggregator.protohandler.proto_handler.ProtoHandler object at 0x7f272e0c58e0>>
+2022-06-21T11:38:19.094Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:38:19.459Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:38:19.459Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 23, "message_type": 7, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success"}}'
+2022-06-21T11:38:21.240Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:45
+2022-06-21T11:38:21.240Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.PROC_RSP
+2022-06-21T11:38:21.240Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.RCV_MODEL
+2022-06-21T11:38:21.240Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Accepting model updates
+2022-06-21T11:38:21.240Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:21.260Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.AGGREGATING
+2022-06-21T11:38:21.260Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Aggregating
+2022-06-21T11:38:21.260Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:21.286Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting metrics to WML service.
+2022-06-21T11:38:21.286Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | acc metric
+2022-06-21T11:38:21.286Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Metric obtained.
+2022-06-21T11:38:21.301Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.iter_avg_fusion_handler    | Reached maximum global rounds. Finish training :) 
+2022-06-21T11:38:21.301Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:21.315Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Finished Global Training
+2022-06-21T11:38:21.315Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:21.329Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.SYNC
+2022-06-21T11:38:21.329Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initiating global model sync requests.
+2022-06-21T11:38:21.332Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_handler             | Sync Global Model<ibmfl.model.model_update.ModelUpdate object at 0x7f271c68e5e0>
+2022-06-21T11:38:21.332Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:38:21.334Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 12 to destination = wml_remote_training_system.testrts
+2022-06-21T11:38:21.335Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 12 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:38:21.463Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:38:21.509Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 28, "message_type": 12, "sender_info": null}, "data": {"payload": {"model_update": {"py/object": "ibmfl.model.model_update.ModelUpdate", "_ModelUpdate__updates": {"weights": {"py/b64": "gASVzQUAAAAAAABdlCiMFW51bXB5LmNvcmUubXVsd...
+2022-06-21T11:38:22.091Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:38:22.135Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 28, "message_type": 12, "sender_info": null}, "data": {"payload": {"model_update": {"py/object": "ibmfl.model.model_update.ModelUpdate", "_ModelUpdate__updates": {"weights": {"py/b64": "gASVzQUAAAAAAABdlCiMFW51bXB5LmNvcmUubXVsd...
+2022-06-21T11:38:24.641Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 28, "message_type": 12, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "payload": null}}'
+2022-06-21T11:38:24.641Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:38:24.642Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bfd0>
+2022-06-21T11:38:24.967Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 28, "message_type": 12, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "payload": null}}'
+2022-06-21T11:38:24.967Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:38:24.968Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bc40>
+2022-06-21T11:38:24.969Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:38:24.969Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:38:24.970Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:38:24.970Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Finished sync model requests
+2022-06-21T11:38:24.970Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:24.987Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.EVAL
+2022-06-21T11:38:24.987Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initiating evaluation requests.
+2022-06-21T11:38:24.987Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:38:24.989Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 10 to destination = wml_remote_training_system.testrts
+2022-06-21T11:38:24.989Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 10 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:38:25.094Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:38:25.094Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 31, "message_type": 10, "sender_info": null}, "data": {"payload": {}}}'
+2022-06-21T11:38:25.709Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:38:25.710Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 31, "message_type": 10, "sender_info": null}, "data": {"payload": {}}}'
+2022-06-21T11:38:28.012Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 31, "message_type": 10, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "payload": {"loss": 0.048148903995752335, "acc": 0.99, "accuracy": 0.9857000112533569, "f1 micro": {"py/reduce": [{"p...
+2022-06-21T11:38:28.013Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:38:28.013Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c7701c0>
+2022-06-21T11:38:29.839Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 31, "message_type": 10, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "payload": {"loss": 0.048148903995752335, "acc": 0.99, "accuracy": 0.9857000112533569, "f1 micro": {"py/reduce": [{"py...
+2022-06-21T11:38:29.840Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:38:29.840Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f272c0523a0>
+2022-06-21T11:38:29.842Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:38:29.842Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:38:29.842Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:38:29.842Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_handler             | Finished evaluate model requests.
+2022-06-21T11:38:29.842Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Finished eval requests
+2022-06-21T11:38:29.842Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:29.862Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | /wml-training-data/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/data/model
+2022-06-21T11:38:29.863Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.SAVE
+2022-06-21T11:38:29.863Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initiating global model save requests.
+2022-06-21T11:38:30.218Z | 1.0.7 | INFO | ibmfl.model.tensorflow_fl_model                    | Model saved in path: /wml-training-data/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/648f8e85-4a2a-4c3f-9627-fbb22334c7bf/data/model.
+2022-06-21T11:38:30.218Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:30.234Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Finished save model requests
+2022-06-21T11:38:30.234Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T11:38:30.245Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.STOP
+2022-06-21T11:38:30.245Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T11:38:30.247Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 14 to destination = wml_remote_training_system.testrts
+2022-06-21T11:38:30.248Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 14 to destination = wml_remote_training_system.testrts2
+2022-06-21T11:38:30.717Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T11:38:30.717Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 34, "message_type": 14, "sender_info": null}, "data": null}'
+2022-06-21T11:38:30.844Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T11:38:30.845Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:38:30.845Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c76bca0>
+2022-06-21T11:38:30.850Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T11:38:30.850Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T11:38:31.103Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T11:38:31.103Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 34, "message_type": 14, "sender_info": null}, "data": null}'
+2022-06-21T11:38:32.029Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T11:38:32.029Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T11:38:32.030Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f271c7382b0>
+2022-06-21T11:38:32.030Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T11:38:32.032Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T11:38:32.032Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T11:38:32.032Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T11:38:32.032Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Stop Complete

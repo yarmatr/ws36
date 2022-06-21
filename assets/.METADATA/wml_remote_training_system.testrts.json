@@ -1,0 +1,31 @@
+{
+  "entity": {
+    "wml_remote_training_system": {
+      "remote_admin": {
+        "id": "1000330999",
+        "type": "user"
+      },
+      "allowed_identities": [
+        {
+          "id": "1000330999",
+          "type": "user"
+        }
+      ],
+      "ml_version": "4.0.3"
+    }
+  },
+  "metadata": {
+    "name": "test rts",
+    "tags": [],
+    "asset_type": "wml_remote_training_system",
+    "asset_category": "USER",
+    "origin_country": "US",
+    "created_at": "2022-06-21T01:58:07Z",
+    "created": 1655776687942,
+    "asset_id": "wml_remote_training_system.testrts",
+    "asset_attributes": [
+      "wml_remote_training_system"
+    ]
+  },
+  "attachments": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "model_21807734-db42-47cb-81dd-b3afefc083a7",
+  "content_location": {
+    "connection": {
+
+    },
+    "contents": [{
+      "content_format": "native",
+      "file_name": "21807734-db42-47cb-81dd-b3afefc083a7.zip",
+      "location": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7/assets/21807734-db42-47cb-81dd-b3afefc083a7/resources/wml_model/21807734-db42-47cb-81dd-b3afefc083a7.zip"
+    }],
+    "location": {
+      "path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning",
+      "model": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7/data/model",
+      "notebooks_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7/notebooks",
+      "training": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7",
+      "training_status": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7/training-status.json",
+      "logs": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7/logs",
+      "assets_path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning/21807734-db42-47cb-81dd-b3afefc083a7/assets"
+    },
+    "type": "fs"
+  },
+  "software_spec": {
+    "name": "runtime-22.1-py3.9"
+  },
+  "project_id": "8051f31b-9e96-4d18-8777-bcfc5354b42f",
+  "type": "scikit-learn_1.0"
+}

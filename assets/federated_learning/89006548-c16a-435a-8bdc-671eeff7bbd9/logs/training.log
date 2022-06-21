@@ -1,0 +1,462 @@
+2022-06-21T04:33:19.805Z | 1.0.7 | INFO | ibmfl.util.config                                  | Getting Aggregator details from arguments.
+2022-06-21T04:33:19.805Z | 1.0.7 | INFO | ibmfl.util.config                                  | No data config provided for this setup.
+2022-06-21T04:33:19.805Z | 1.0.7 | INFO | ibmfl.util.config                                  | No metrics recorder config provided for this setup.
+2022-06-21T04:33:19.805Z | 1.0.7 | INFO | ibmfl.util.config                                  | No metrics config provided for this setup.
+2022-06-21T04:33:19.806Z | 1.0.7 | INFO | ibmfl.util.config                                  | No evidencia recordeer config provided for this setup.
+2022-06-21T04:33:19.807Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.START
+2022-06-21T04:33:19.807Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSReceiver initialize() with ssl_context <ssl.SSLContext object at 0x7f0563a51e40>
+2022-06-21T04:33:19.807Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Starting periodic monitor
+2022-06-21T04:33:19.807Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initializing connection
+2022-06-21T04:33:19.807Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initialized connection
+2022-06-21T04:33:19.808Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:33:19.835Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.START
+2022-06-21T04:33:19.836Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:33:19.853Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.REGISTER_WAIT
+2022-06-21T04:34:20.027Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:34:20.033Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 60, max_timeout = 43200
+2022-06-21T04:34:20.033Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:34:20.033Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:34:20.150Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:34:20.156Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:35:20.386Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:35:20.392Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 121, max_timeout = 43200
+2022-06-21T04:35:20.397Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:35:20.397Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:35:20.535Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:35:20.540Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:36:20.762Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:36:20.768Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 181, max_timeout = 43200
+2022-06-21T04:36:20.769Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:36:20.769Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:36:20.907Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:36:20.912Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:36:29.056Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T04:36:29.439Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"id": "wml_remote_training_system.testrts", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/8900654...
+2022-06-21T04:36:29.445Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7f05639fc940>>
+2022-06-21T04:36:29.445Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts
+2022-06-21T04:36:29.445Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:1
+2022-06-21T04:36:29.569Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts
+2022-06-21T04:36:30.357Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T04:36:30.363Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts", "model_config": {"cls_ref": {"py/type": "ibmfl.model.xgb_fl_model.XGBClassifi...
+2022-06-21T04:36:47.374Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T04:36:47.738Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"id": "wml_remote_training_system.testrts2", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/89006...
+2022-06-21T04:36:47.743Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7f05639fc940>>
+2022-06-21T04:36:47.744Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts2
+2022-06-21T04:36:47.744Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:2
+2022-06-21T04:36:47.744Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:36:47.766Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.TRAIN
+2022-06-21T04:36:47.766Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts2
+2022-06-21T04:36:47.766Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Initiating Global Training.
+2022-06-21T04:36:47.767Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.xgb_fusion_handler         | Perform Local Training Handler Initialization Process
+2022-06-21T04:36:47.767Z | 1.0.7 | INFO | ibmfl.aggregator.fusion.fusion_state_service       | Fusion state States.SND_MODEL
+2022-06-21T04:36:47.767Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting substate Sending model updates
+2022-06-21T04:36:47.767Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:36:47.781Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T04:36:47.787Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts
+2022-06-21T04:36:47.787Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 7 to destination = wml_remote_training_system.testrts2
+2022-06-21T04:36:48.680Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T04:36:48.680Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts2", "model_config": {"cls_ref": {"py/type": "ibmfl.model.xgb_fl_model.XGBClassi...
+2022-06-21T04:36:48.680Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T04:36:48.680Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 4, "message_type": 7, "sender_info": null}, "data": {"payload": {"func": "initialize", "args": {"params": {"global": {"learning_rate": 0.1, "num_classes": 2, "rounds": 10, "num_parties": 2, "perc_quorum": 1.0, "max_timeout": 43...
+2022-06-21T04:36:48.681Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T04:36:48.681Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 3, "message_type": 7, "sender_info": null}, "data": {"payload": {"func": "initialize", "args": {"params": {"global": {"learning_rate": 0.1, "num_classes": 2, "rounds": 10, "num_parties": 2, "perc_quorum": 1.0, "max_timeout": 43...
+2022-06-21T04:36:49.445Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T04:36:49.446Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T04:36:49.446Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f055f408b80>
+2022-06-21T04:36:49.712Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T04:36:49.712Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T04:36:49.713Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f055f67db50>
+2022-06-21T04:36:49.714Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T04:36:49.714Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T04:36:49.714Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T04:36:49.715Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.QUORUM_WAIT
+2022-06-21T04:36:54.720Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:5
+2022-06-21T04:36:59.725Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:10
+2022-06-21T04:37:04.731Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:15
+2022-06-21T04:37:09.736Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:20
+2022-06-21T04:37:14.741Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:25
+2022-06-21T04:37:19.745Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:30
+2022-06-21T04:37:21.006Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:37:21.006Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 33, max_timeout = 43200
+2022-06-21T04:37:21.006Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:37:21.006Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:37:21.022Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:37:21.022Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:37:24.751Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:35
+2022-06-21T04:37:29.751Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:40
+2022-06-21T04:37:34.756Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:45
+2022-06-21T04:37:39.762Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:50
+2022-06-21T04:37:44.767Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:55
+2022-06-21T04:37:49.769Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:60
+2022-06-21T04:37:54.775Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:65
+2022-06-21T04:37:59.776Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:70
+2022-06-21T04:38:04.781Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:75
+2022-06-21T04:38:09.786Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:80
+2022-06-21T04:38:14.789Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:85
+2022-06-21T04:38:19.790Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:90
+2022-06-21T04:38:21.127Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:38:21.127Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 93, max_timeout = 43200
+2022-06-21T04:38:21.127Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:38:21.127Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:38:21.144Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:38:21.144Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:38:24.791Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:95
+2022-06-21T04:38:29.792Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:100
+2022-06-21T04:38:34.796Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:105
+2022-06-21T04:38:39.802Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:110
+2022-06-21T04:38:44.807Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:115
+2022-06-21T04:38:49.813Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:120
+2022-06-21T04:38:54.818Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:125
+2022-06-21T04:38:59.823Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:130
+2022-06-21T04:39:04.829Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:135
+2022-06-21T04:39:09.833Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:140
+2022-06-21T04:39:14.835Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:145
+2022-06-21T04:39:18.615Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler - ConnectionClosedError encountered.
+Traceback (most recent call last):
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 250, in receive_message_handler
+    async for message in websocket:
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-06-21T04:39:18.616Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Invalidating destination: wml_remote_training_system.testrts2
+2022-06-21T04:39:18.616Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T04:39:18.617Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T04:39:19.837Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:150
+2022-06-21T04:39:21.243Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:39:21.243Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 153, max_timeout = 43200
+2022-06-21T04:39:21.243Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:39:21.243Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:39:21.246Z | 1.0.7 | ERROR | ibmfl.connection.sws_connection                    | $$ EXCEPTION IN receive_message_handler - ConnectionClosedError encountered.
+Traceback (most recent call last):
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 944, in transfer_data
+    message = await self.read_message()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1013, in read_message
+    frame = await self.read_data_frame(max_size=self.max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1089, in read_data_frame
+    frame = await self.read_frame(max_size)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 1144, in read_frame
+    frame = await Frame.read(
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/framing.py", line 70, in read
+    data = await reader(2)
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/asyncio/streams.py", line 721, in readexactly
+    raise exceptions.IncompleteReadError(incomplete, n)
+asyncio.exceptions.IncompleteReadError: 0 bytes read on a total of 2 expected bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/FL/ibmfl/connection/sws_connection.py", line 250, in receive_message_handler
+    async for message in websocket:
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 481, in __aiter__
+    yield await self.recv()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 552, in recv
+    await self.ensure_open()
+  File "/opt/conda/envs/py39-tf27-pt110-sk10/lib/python3.9/site-packages/websockets/legacy/protocol.py", line 920, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedError: no close frame received or sent
+2022-06-21T04:39:21.246Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Invalidating destination: wml_remote_training_system.testrts
+2022-06-21T04:39:21.247Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T04:39:21.260Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:39:21.260Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:39:24.838Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:155
+2022-06-21T04:39:29.844Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:160
+2022-06-21T04:39:34.845Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:165
+2022-06-21T04:39:39.850Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:170
+2022-06-21T04:39:44.855Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:175
+2022-06-21T04:39:49.861Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:180
+2022-06-21T04:39:54.866Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:185
+2022-06-21T04:39:59.872Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:190
+2022-06-21T04:40:04.877Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:195
+2022-06-21T04:40:09.882Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:200
+2022-06-21T04:40:14.888Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:205
+2022-06-21T04:40:19.891Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:210
+2022-06-21T04:40:21.339Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:40:21.339Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 214, max_timeout = 43200
+2022-06-21T04:40:21.339Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:40:21.339Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:40:21.353Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:40:21.353Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:40:24.896Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:215
+2022-06-21T04:40:29.901Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:220
+2022-06-21T04:40:34.907Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:225
+2022-06-21T04:40:39.912Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:230
+2022-06-21T04:40:44.918Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:235
+2022-06-21T04:40:49.923Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:240
+2022-06-21T04:40:54.927Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:245
+2022-06-21T04:40:59.932Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:250
+2022-06-21T04:41:04.937Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:255
+2022-06-21T04:41:09.943Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:260
+2022-06-21T04:41:14.948Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:265
+2022-06-21T04:41:19.953Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:270
+2022-06-21T04:41:21.402Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:41:21.402Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 274, max_timeout = 43200
+2022-06-21T04:41:21.402Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:41:21.402Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:41:21.417Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:41:21.417Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:41:24.959Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:275
+2022-06-21T04:41:29.964Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:280
+2022-06-21T04:41:34.969Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:285
+2022-06-21T04:41:39.975Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:290
+2022-06-21T04:41:44.979Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:295
+2022-06-21T04:41:49.984Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:300
+2022-06-21T04:41:54.985Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:305
+2022-06-21T04:41:59.991Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:310
+2022-06-21T04:42:04.995Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:315
+2022-06-21T04:42:10.000Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:320
+2022-06-21T04:42:15.006Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:325
+2022-06-21T04:42:20.011Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:330
+2022-06-21T04:42:21.462Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:42:21.462Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 334, max_timeout = 43200
+2022-06-21T04:42:21.462Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:42:21.462Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:42:21.476Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:42:21.477Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:42:25.016Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:335
+2022-06-21T04:42:30.022Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:340
+2022-06-21T04:42:35.027Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:345
+2022-06-21T04:42:40.033Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:350
+2022-06-21T04:42:45.038Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:355
+2022-06-21T04:42:50.043Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:360
+2022-06-21T04:42:55.047Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:365
+2022-06-21T04:43:00.053Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:370
+2022-06-21T04:43:05.058Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:375
+2022-06-21T04:43:10.060Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:380
+2022-06-21T04:43:15.063Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:385
+2022-06-21T04:43:20.068Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:390
+2022-06-21T04:43:21.551Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:43:21.551Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 394, max_timeout = 43200
+2022-06-21T04:43:21.551Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:43:21.551Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:43:21.563Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:43:21.563Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:43:25.069Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:395
+2022-06-21T04:43:30.070Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:400
+2022-06-21T04:43:35.073Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:405
+2022-06-21T04:43:40.079Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:410
+2022-06-21T04:43:45.084Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:415
+2022-06-21T04:43:50.090Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:420
+2022-06-21T04:43:55.095Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:425
+2022-06-21T04:44:00.100Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:430
+2022-06-21T04:44:05.105Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:435
+2022-06-21T04:44:10.110Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:440
+2022-06-21T04:44:15.116Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:445
+2022-06-21T04:44:20.121Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:450
+2022-06-21T04:44:21.887Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:44:21.887Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 454, max_timeout = 43200
+2022-06-21T04:44:21.887Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:44:21.887Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:44:21.904Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:44:21.904Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:44:25.127Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:455
+2022-06-21T04:44:30.132Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:460
+2022-06-21T04:44:35.138Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:465
+2022-06-21T04:44:40.142Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:470
+2022-06-21T04:44:40.648Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T04:44:40.728Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"id": "wml_remote_training_system.testrts", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/8900654...
+2022-06-21T04:44:40.728Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7f05639fc940>>
+2022-06-21T04:44:40.728Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts
+2022-06-21T04:44:40.728Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:2
+2022-06-21T04:44:40.744Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts
+2022-06-21T04:44:41.681Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T04:44:41.681Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts", "model_config": {"cls_ref": {"py/type": "ibmfl.model.xgb_fl_model.XGBClassifi...
+2022-06-21T04:44:45.148Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:475
+2022-06-21T04:44:50.153Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:480
+2022-06-21T04:44:55.159Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:485
+2022-06-21T04:45:00.164Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:490
+2022-06-21T04:45:05.170Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:495
+2022-06-21T04:45:09.100Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Authenticating Token for RTS with IP address = None
+2022-06-21T04:45:09.200Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"id": "wml_remote_training_system.testrts2", "VERSION": "1.0.218", "ip": "cpd-wml.apps.wml410450fysy36.cp.fyre.ibm.com/ml/v4/trainings/89006...
+2022-06-21T04:45:09.200Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | handler found = <bound method Aggregator.handle_register_request of <ibmfl.aggregator.aggregator.Aggregator object at 0x7f05639fc940>>
+2022-06-21T04:45:09.201Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Adding party with id wml_remote_training_system.testrts2
+2022-06-21T04:45:09.201Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of registered parties:2
+2022-06-21T04:45:09.221Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 6 to destination = wml_remote_training_system.testrts2
+2022-06-21T04:45:10.136Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T04:45:10.136Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 1, "message_type": 6, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"status": "success", "id": "wml_remote_training_system.testrts2", "model_config": {"cls_ref": {"py/type": "ibmfl.model.xgb_fl_model.XGBClassi...
+2022-06-21T04:45:10.175Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:500
+2022-06-21T04:45:15.181Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:505
+2022-06-21T04:45:20.182Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:510
+2022-06-21T04:45:21.951Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:45:21.951Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 514, max_timeout = 43200
+2022-06-21T04:45:21.951Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:45:21.951Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:45:21.968Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:45:21.968Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:45:25.188Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:515
+2022-06-21T04:45:30.190Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:520
+2022-06-21T04:45:35.195Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:525
+2022-06-21T04:45:40.202Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:530
+2022-06-21T04:45:45.207Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:535
+2022-06-21T04:45:50.212Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:540
+2022-06-21T04:45:55.217Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:546
+2022-06-21T04:46:00.222Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:551
+2022-06-21T04:46:05.227Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:556
+2022-06-21T04:46:10.231Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:561
+2022-06-21T04:46:15.234Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:566
+2022-06-21T04:46:20.239Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:571
+2022-06-21T04:46:22.119Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:46:22.119Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 574, max_timeout = 43200
+2022-06-21T04:46:22.119Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:46:22.119Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:46:22.132Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:46:22.132Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:46:25.240Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:576
+2022-06-21T04:46:30.246Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:581
+2022-06-21T04:46:35.250Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:586
+2022-06-21T04:46:40.258Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:591
+2022-06-21T04:46:45.263Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:596
+2022-06-21T04:46:50.269Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:601
+2022-06-21T04:46:55.273Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:606
+2022-06-21T04:47:00.279Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:611
+2022-06-21T04:47:05.284Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:616
+2022-06-21T04:47:10.290Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:621
+2022-06-21T04:47:15.290Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:626
+2022-06-21T04:47:20.296Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:631
+2022-06-21T04:47:22.203Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:47:22.203Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 634, max_timeout = 43200
+2022-06-21T04:47:22.203Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:47:22.203Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:47:22.217Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:47:22.217Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:47:25.302Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:636
+2022-06-21T04:47:30.307Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:641
+2022-06-21T04:47:35.313Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:646
+2022-06-21T04:47:40.318Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:651
+2022-06-21T04:47:45.323Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:656
+2022-06-21T04:47:50.329Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:661
+2022-06-21T04:47:55.333Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:666
+2022-06-21T04:48:00.335Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:671
+2022-06-21T04:48:05.341Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:676
+2022-06-21T04:48:10.346Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:681
+2022-06-21T04:48:15.352Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:686
+2022-06-21T04:48:20.357Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:691
+2022-06-21T04:48:22.320Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:48:22.320Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 695, max_timeout = 43200
+2022-06-21T04:48:22.320Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:48:22.320Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:48:22.337Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:48:22.337Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:48:25.363Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:696
+2022-06-21T04:48:30.364Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:701
+2022-06-21T04:48:35.368Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:706
+2022-06-21T04:48:40.374Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:711
+2022-06-21T04:48:45.379Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:716
+2022-06-21T04:48:50.383Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:721
+2022-06-21T04:48:55.389Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:726
+2022-06-21T04:49:00.393Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:731
+2022-06-21T04:49:05.399Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:736
+2022-06-21T04:49:10.403Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:741
+2022-06-21T04:49:15.409Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:746
+2022-06-21T04:49:20.414Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:751
+2022-06-21T04:49:22.433Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:49:22.433Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 755, max_timeout = 43200
+2022-06-21T04:49:22.433Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:49:22.433Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:49:22.446Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:49:22.446Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:49:25.420Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:756
+2022-06-21T04:49:30.424Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:761
+2022-06-21T04:49:35.429Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:766
+2022-06-21T04:49:40.434Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:771
+2022-06-21T04:49:45.435Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:776
+2022-06-21T04:49:50.440Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:781
+2022-06-21T04:49:55.446Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:786
+2022-06-21T04:50:00.451Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:791
+2022-06-21T04:50:05.456Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:796
+2022-06-21T04:50:10.460Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:801
+2022-06-21T04:50:15.466Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:806
+2022-06-21T04:50:20.467Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:811
+2022-06-21T04:50:22.740Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = False
+2022-06-21T04:50:22.740Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State execution time elapsed : 815, max_timeout = 43200
+2022-06-21T04:50:22.740Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Status
+2022-06-21T04:50:22.740Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:50:22.754Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Syncing logs
+2022-06-21T04:50:22.754Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Reporting Service Metrics
+2022-06-21T04:50:25.472Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:816
+2022-06-21T04:50:30.477Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:821
+2022-06-21T04:50:35.483Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:826
+2022-06-21T04:50:40.488Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:831
+2022-06-21T04:50:45.494Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:836
+2022-06-21T04:50:50.499Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:841
+2022-06-21T04:50:55.505Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:846
+2022-06-21T04:51:00.510Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:851
+2022-06-21T04:51:05.516Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:856
+2022-06-21T04:51:10.521Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:861
+2022-06-21T04:51:15.524Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:866
+2022-06-21T04:51:20.529Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:871
+2022-06-21T04:51:22.849Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | wml_service.is_cancelled = True
+2022-06-21T04:51:22.849Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Cancel Requested, Exiting
+2022-06-21T04:51:22.850Z | 1.0.7 | INFO | ibmfl.wml.wml_service                              | Reporting status to WML service
+2022-06-21T04:51:22.863Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | State: States.STOP
+2022-06-21T04:51:22.864Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | State: States.SND_REQ
+2022-06-21T04:51:22.866Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 14 to destination = wml_remote_training_system.testrts
+2022-06-21T04:51:22.867Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | SWSSender.send_message message_type = 14 to destination = wml_remote_training_system.testrts2
+2022-06-21T04:51:23.274Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts
+2022-06-21T04:51:23.274Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 9, "message_type": 14, "sender_info": null}, "data": null}'
+2022-06-21T04:51:23.753Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts"}, "data": {"ACK": true}}'
+2022-06-21T04:51:23.753Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T04:51:23.753Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f055f408a60>
+2022-06-21T04:51:23.754Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T04:51:23.754Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T04:51:23.857Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Processed a message to send to:wml_remote_training_system.testrts2
+2022-06-21T04:51:23.857Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_message_to_send b'{"header": {"id_request": 9, "message_type": 14, "sender_info": null}, "data": null}'
+2022-06-21T04:51:24.310Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | METHOD = SWSReceiver.process_received_message b'{"header": {"id_request": -1, "message_type": 11, "sender_info": "wml_remote_training_system.testrts2"}, "data": {"ACK": true}}'
+2022-06-21T04:51:24.311Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | no handler found = None
+2022-06-21T04:51:24.311Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Received serialized message as response: <ibmfl.message.message.Message object at 0x7f055f6ef1f0>
+2022-06-21T04:51:24.312Z | 1.0.7 | INFO | ibmfl.connection.sws_connection                    | Future Processed successfully
+2022-06-21T04:51:24.313Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Total number of success responses :2
+2022-06-21T04:51:24.314Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of parties queried:2
+2022-06-21T04:51:24.314Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Number of registered parties:2
+2022-06-21T04:51:24.314Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Stop Complete
+2022-06-21T04:51:24.314Z | 1.0.7 | INFO | ibmfl.aggregator.aggregator                        | Ending periodic monitor
+2022-06-21T04:51:25.534Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:876
+2022-06-21T04:51:30.540Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:881
+2022-06-21T04:51:35.545Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:886
+2022-06-21T04:51:40.551Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:891
+2022-06-21T04:51:45.556Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:896
+2022-06-21T04:51:50.561Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:901
+2022-06-21T04:51:55.567Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:906
+2022-06-21T04:52:00.573Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:911
+2022-06-21T04:52:05.575Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:916
+2022-06-21T04:52:10.577Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:921
+2022-06-21T04:52:15.583Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:926
+2022-06-21T04:52:20.588Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:931
+2022-06-21T04:52:25.592Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:936
+2022-06-21T04:52:30.598Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:941
+2022-06-21T04:52:35.600Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:946
+2022-06-21T04:52:40.606Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:951
+2022-06-21T04:52:45.611Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:956
+2022-06-21T04:52:50.615Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:961
+2022-06-21T04:52:55.620Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:966
+2022-06-21T04:53:00.625Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:971
+2022-06-21T04:53:05.631Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:976
+2022-06-21T04:53:10.635Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:981
+2022-06-21T04:53:15.641Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:986
+2022-06-21T04:53:20.646Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:991
+2022-06-21T04:53:25.651Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:996
+2022-06-21T04:53:30.657Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:1001
+2022-06-21T04:53:35.658Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:1006
+2022-06-21T04:53:40.663Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:1011
+2022-06-21T04:53:45.669Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:1016
+2022-06-21T04:53:50.674Z | 1.0.7 | INFO | ibmfl.aggregator.protohandler.proto_handler        | Timeout:43200 Time spent:1021

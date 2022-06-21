@@ -1,0 +1,62 @@
+{
+  "entity": {
+    "wml_training_definition": {
+      "definition_type": "federated_learning",
+      "training_data_references": [],
+      "results_reference": {
+        "connection": {},
+        "location": {
+          "path": "/projects/8051f31b-9e96-4d18-8777-bcfc5354b42f/assets/federated_learning"
+        },
+        "type": "fs"
+      },
+      "ml_version": "4.0.6",
+      "federated_learning": {
+        "fusion_type": "iter_avg",
+        "hardware_spec": {
+          "name": "XXS"
+        },
+        "log_level": "INFO",
+        "model": {
+          "spec": {
+            "id": "wml_model.tfmnist"
+          },
+          "type": "tensorflow"
+        },
+        "remote_training": {
+          "max_timeout": 43200,
+          "quorum": 1,
+          "remote_training_systems": [
+            {
+              "id": "wml_remote_training_system.testrts",
+              "required": true
+            },
+            {
+              "id": "wml_remote_training_system.testrts2",
+              "required": true
+            }
+          ]
+        },
+        "rounds": 5,
+        "software_spec": {
+          "name": "runtime-22.1-py3.9"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "name": "test fl training",
+    "asset_type": "wml_training_definition",
+    "asset_category": "USER",
+    "origin_country": "US",
+    "description": "",
+    "tags": [],
+    "created_at": "2022-06-21T01:58:13Z",
+    "created": 1655776693936,
+    "asset_id": "wml_training_definition.testfltraining",
+    "asset_attributes": [
+      "wml_training_definition"
+    ]
+  },
+  "attachments": []
+}
